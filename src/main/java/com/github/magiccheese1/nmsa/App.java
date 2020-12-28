@@ -7,5 +7,6 @@ public class App extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("Stuck arrows, be gone!!");
+        getServer().getPluginManager().registerEvents(new ProjectileListener(), this);
     }
 }
