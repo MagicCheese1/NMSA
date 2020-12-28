@@ -1,0 +1,5 @@
+main: com.github.magiccheese1.nmsa.App
+name: nmsa
+author: MagicCheese1
+version: 1.0
+api-version: 1.16
